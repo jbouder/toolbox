@@ -1,0 +1,7 @@
+POST https://localhost:7189/api/TodoItems HTTP/1.1
+content-type: application/json
+
+{
+  "name": "slow dog",
+  "isComplete": true
+}
