@@ -1,0 +1,7 @@
+POST http://127.0.0.1:10350/api/get-and-save-images-and-annotations HTTP/1.1
+Authorization: Bearer SOME_TOKEN
+Content-Type: application/json
+
+{
+  "project_id": "39"
+}

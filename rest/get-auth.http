@@ -1,0 +1,2 @@
+GET http://127.0.0.1:10350/api/autolabel-metrics/39
+Authorization: Bearer SOME_TOKEN

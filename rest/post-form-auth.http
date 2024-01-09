@@ -1,0 +1,13 @@
+POST http://127.0.0.1:10350/api/get-random-samples HTTP/1.1
+Authorization: Bearer SOME_TOKEN
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryuAyp9UJjAqyAFjT6
+
+------WebKitFormBoundaryuAyp9UJjAqyAFjT6
+Content-Disposition: form-data; name="project_id"
+
+39
+------WebKitFormBoundaryuAyp9UJjAqyAFjT6
+Content-Disposition: form-data; name="num_samples"
+
+10
+------WebKitFormBoundaryuAyp9UJjAqyAFjT6--

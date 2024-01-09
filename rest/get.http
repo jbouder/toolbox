@@ -1,1 +1,1 @@
-https://localhost:7189/api/TodoItems
+GET https://pokeapi.co/api/v2/pokemon/articuno
